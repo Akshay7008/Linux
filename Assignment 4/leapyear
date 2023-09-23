@@ -1,0 +1,16 @@
+#!/bin/bash
+
+read -p "enter the year:-" year
+
+if [ "$year % 4 -eq 0" ] && [ "$year % 400 -eq 0" ]
+then
+ echo "hi"
+fi
+
+if [ `expr $year % 4 == 0` ] && [ `expr $year % 400 == 0` ]
+then
+
+ echo " $year is a leap year"
+
+fi
+

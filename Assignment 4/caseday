@@ -1,0 +1,12 @@
+#!/bin/bash
+read -p  " enter the day " day
+case $day in
+
+	monday|tuesday|wednesday|thursday|friday)
+	echo " Its a weekday "
+	;;
+	saturday|sunday)
+	echo "Its a weekend "
+	;;
+esac
+	

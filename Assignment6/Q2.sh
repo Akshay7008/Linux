@@ -3,7 +3,7 @@
 read -p " the variable for addition and deletion and finding of record" a 
 echo "for exit enter the 0"
 
-while [ $a != 4 ]
+while [ $a != 4]
 do
 
 echo "1) Addition of records"
@@ -39,7 +39,11 @@ case $num in
 
                           ;;
  
-                         *) echo "Invalid Choice"
+                         4) echo "Invalid Choice"
+			;;						 
+
+				
+			 4) echo "Invalid Choice"
 
 esac
 

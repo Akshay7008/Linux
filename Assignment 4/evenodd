@@ -1,0 +1,12 @@
+#! /bin/bash
+
+read -p "enter the value" variable
+
+if [ `expr $variable % 2` == 0 ]
+then
+	echo " $variable  is even"
+else
+	echo "$variable is odd"
+
+fi
+

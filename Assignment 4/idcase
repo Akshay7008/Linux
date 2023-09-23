@@ -1,0 +1,20 @@
+
+#!/bin/bash
+
+read -p " Enter the id number " id
+
+case $id in
+	
+	1)
+	echo " mechanical department "
+	;;
+	2)
+	echo " civil department "
+	;;
+	3)
+	echo " entc department "
+	;;
+	4)
+	echo " cs department "
+	;;
+esac

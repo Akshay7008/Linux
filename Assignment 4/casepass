@@ -1,0 +1,14 @@
+#!/bin/bash
+
+read -p " enter the password " password
+
+case $password in
+
+	pass)
+	echo " The password is correct "
+	;;
+	Pass)
+	echo " The password is incorrect "
+	;;
+esac
+	

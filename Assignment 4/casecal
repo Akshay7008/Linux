@@ -1,0 +1,30 @@
+#!/bin/bash
+read -p " enter the operation " operation
+
+
+case $operation in
+
+ 	add)
+	read -p " enter the values of a and b " a b 
+	sum=`expr $a + $b`
+	echo "$sum"
+	;;
+
+	sub)
+	read -p " enter the values of a and b " a b
+	cal=`expr $a - $b`
+	echo $cal
+	;;
+
+	multi)
+	read -p " enter the value of a and b" a b
+	mul= `expr $a \* $b`
+	echo $mul
+	;;
+
+	divd)
+	read -p "enter the value of a and b" a b
+	div= `expr $a / $b`
+	echo $div
+	;;
+esac
